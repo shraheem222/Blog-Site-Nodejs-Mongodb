@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 const {Schema} = mongoose
 // const posts = [];
 
-mongoose.connect('mongodb+srv://admin-raheem:Aajan252000@cluster0.igfuu.mongodb.net/blogDB')
+mongoose.connect('mongodb+srv://username:password@cluster0.igfuu.mongodb.net/blogDB')
 
 const {homeStartingContent, aboutContent, contactContent} = require('./data')
 
